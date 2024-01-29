@@ -10,25 +10,28 @@
     "engine.io-client": "^6.4.0",
     "engine.io-parser": "^5.0.7",
     "esbuild": "^0.20.0",
+    "esbuild-copy-files-plugin": "^1.1.0",
+    "esbuild-plugin-progress": "^1.0.1",
+    "esbuild-plugin-time": "^1.0.0",
     "ms": "^2.1.2",
     "socket.io-client": "^4.6.1",
     "socket.io-parser": "^4.2.4",
     "ws": "^8.11.0",
     "xmlhttprequest-ssl": "^2.0.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.prod.mjs"
   },
   "keywords": [],
   "author": "XiaoSu",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/littlesera/sera.git"
+    "url": "git+https://github.com/iceriny/ExportChat.git"
   },
   "bugs": {
-    "url": "https://github.com/littlesera/sera/issues"
+    "url": "https://github.com/iceriny/ExportChat/issues"
   },
-  "homepage": "https://github.com/littlesera/sera#readme",
+  "homepage": "https://github.com/iceriny/ExportChat#readme",
   "license": "ISC"
 }
